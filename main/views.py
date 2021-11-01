@@ -23,3 +23,9 @@ class UserinfoViewset(GenericViewSet, mixins.RetrieveModelMixin, mixins.ListMode
             return Response({"code": 200, "data": serializer.data},status=status.HTTP_200_OK)
         except Exception:
             return Response({"code": 404, "errmsg": "用户名或密码错误"}, status=status.HTTP_404_NOT_FOUND)
+
+class ContentViewset(GenericViewSet,mixins.CreateModelMixin,mixins.UpdateModelMixin):
+    queryset = Content.objects.all()
+    serializer_class = CotentSerializer
+
+

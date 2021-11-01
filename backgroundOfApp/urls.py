@@ -23,7 +23,7 @@ from rest_framework.routers import DefaultRouter
 # router.register('user', UserinfoViewset)
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^user/$', UserinfoViewset.as_view({'post': 'retrieve'})),
-    url(r'^user/(?P<pk>\d+)/$', UserinfoViewset.as_view({'post': 'retrieve'})),
+    url(r'^user/$', UserinfoViewset.as_view({'get': 'retrieve'})),
+    url(r'^user/(?P<pk>\d+)/$', UserinfoViewset.as_view({'get': 'retrieve'})),
 ]
 # urlpatterns += router.urls

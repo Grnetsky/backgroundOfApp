@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'main',
     'corsheaders'
 ]
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -52,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware'
 ]
-CORS_ORIGIN_WHITELIST = ( 'http://127.0.0.1:8080', 'http://localhost:8080')
+CORS_ORIGIN_WHITELIST = ( 'http://127.0.0.1:8081', 'http://localhost:8081')
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 
 ROOT_URLCONF = 'backgroundOfApp.urls'

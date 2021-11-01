@@ -9,12 +9,9 @@ class User(models.Model):
     sex = models.BooleanField(default=True)
     registerDate = models.DateTimeField(auto_now=True)
     # user_type = models.IntegerField(choices=((1,"超级用户"),(2,"普通用户")))
-
-
-
 class Content(models.Model):
     title = models.CharField(max_length=20)
     updateTime = models.DateTimeField(auto_now=True)
     content = models.TextField()
     picture = models.ImageField(null=True)
-    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    author = models.ForeignKey(to=User, on_delete=models.CASCADE,related_name='contents')
