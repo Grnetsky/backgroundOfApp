@@ -15,15 +15,22 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from django.contrib.auth import logout
 from django.urls import path, re_path
-from main.views import UserinfoViewset
+from rest_framework_jwt.views import obtain_jwt_token
+
+from main.views import UserinfoViewset, ContentViewset, Register, Logoutview
 from rest_framework.routers import DefaultRouter
 #
 # router = DefaultRouter()
 # router.register('user', UserinfoViewset)
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^user/$', UserinfoViewset.as_view({'get': 'retrieve'})),
-    url(r'^user/(?P<pk>\d+)/$', UserinfoViewset.as_view({'get': 'retrieve'})),
+    url(r'^user/$', UserinfoViewset.as_view({'get': 'retrieve','post':'createuser','put':'test'})),
+    url(r'^user/(?P<pk>\d+)/$', UserinfoViewset.as_view({'get': 'retrieve',})),
+    url(r'authorization/',obtain_jwt_token),
+    # url(r'content/',ContentViewset.as_view()),
+    path('registercheck/',Register.as_view()),
+    path('logout/',Logoutview.as_view())
 ]
 # urlpatterns += router.urls

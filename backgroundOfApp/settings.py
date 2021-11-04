@@ -9,12 +9,11 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-
+import datetime
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -27,7 +26,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -38,8 +36,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'main',
-    'corsheaders'
+    'corsheaders',
+    'main'
+
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -49,9 +48,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware'
+    'corsheaders.middleware.CorsMiddleware',
+    'utils.middleware.CustomSessionMiddleware'
 ]
-CORS_ORIGIN_WHITELIST = ( 'http://127.0.0.1:8081', 'http://localhost:8081')
+CORS_ORIGIN_WHITELIST = ('http://127.0.0.1:8081', 'http://localhost:8081')
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 
 ROOT_URLCONF = 'backgroundOfApp.urls'
@@ -75,7 +75,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'backgroundOfApp.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
@@ -85,7 +84,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -105,8 +103,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
@@ -120,7 +116,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+AUTH_USER_MODEL = "main.User"
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
@@ -138,8 +134,82 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # }
 REST_FRAMEWORK = {
     # 'EXCEPTION_HANDLER': 'utils.wrong.common_exception_handler',
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        #'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+        'utils.csrf.CsrfExemptSessionAuthentication'
+    ),
     # 配置py文件名,函数名
     'DEFAULT_RENDERER_CLASSES': [
         'rest_framework.renderers.JSONRenderer',
-    ]
+    ],
+}
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),  # 设置过期日期
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'utils.my_jwt_response_payload_hander.my_jwt_response_payload_handler'
+}
+
+# session 配置
+# CACHES = {
+#     "default": { # 默认
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         "LOCATION": "redis://127.0.0.1:6379/0",
+#         "OPTIONS": {
+#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#         }
+#     },
+#     "session": { # session
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         "LOCATION": "redis://127.0.0.1:6379/1",
+#         "OPTIONS": {
+#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#         }
+#     },
+# }
+# SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+# SESSION_CACHE_ALIAS = "session"
+
+# 日志设置
+import os
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,  # 是否禁用已经存在的日志器
+    'formatters': {  # 日志信息显示的格式
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(lineno)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(module)s %(lineno)d %(message)s'
+        },
+    },
+    'filters': {  # 对日志进行过滤
+        'require_debug_true': {  # django在debug模式下才输出日志
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+    },
+    'handlers': {  # 日志处理方法
+        'console': {  # 向终端中输出日志
+            'level': 'INFO',
+            'filters': ['require_debug_true'],
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+        'file': {  # 向文件中输出日志
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(BASE_DIR, 'logs/app.log'),  # 日志文件的位置
+            'maxBytes': 300 * 1024 * 1024,
+            'backupCount': 10,
+            'formatter': 'verbose'
+        },
+    },
+    'loggers': {  # 日志器
+        'django': {  # 定义了一个名为django的日志器
+            'handlers': ['console', 'file'],  # 可以同时向终端与文件中输出日志
+            'propagate': True,  # 是否继续传递日志信息
+            'level': 'INFO',  # 日志器接收的最低日志级别
+        },
+    }
 }

@@ -16,10 +16,10 @@ from main.models import Content
 
 class UserSerializer(ModelSerializer):
     '''用户信息序列化器'''
-    contents = CotentSerializer(many=True)
+    contents = CotentSerializer(many=True,read_only=True)
     # contents = serializers.SlugRelatedField(slug_field='title',read_only=True,many=True)
 
     # contents = serializers.HyperlinkedRelatedField(many=True,read_only=True,view_name='content-detail')
     class Meta:
         model = User
-        fields = "__all__"
+        exclude =['password']
