@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'utils.middleware.CustomSessionMiddleware'
 ]
-CORS_ORIGIN_WHITELIST = ('http://127.0.0.1:8081', 'http://localhost:8081')
+CORS_ORIGIN_WHITELIST = ('http://127.0.0.1:8080', 'http://localhost:8080')
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 
 ROOT_URLCONF = 'backgroundOfApp.urls'
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-Hans'
 
 TIME_ZONE = 'UTC'
 
@@ -120,13 +120,16 @@ AUTH_USER_MODEL = "main.User"
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/'
+import os
 
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = 'media/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 # rest_framework全局配置
 # 局部禁用在视图类上写authentication_classes =[]
 # REST_FRAMEWORK = {
@@ -136,7 +139,7 @@ REST_FRAMEWORK = {
     # 'EXCEPTION_HANDLER': 'utils.wrong.common_exception_handler',
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
-        #'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
         'utils.csrf.CsrfExemptSessionAuthentication'
     ),

@@ -4291,3 +4291,833 @@ INFO 2021-11-04 16:13:37,737 autoreload 251 /Users/mac/Desktop/python3_projects/
 INFO 2021-11-04 16:13:38,590 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-11-04 16:15:56,507 basehttp 161 "POST /authorization/ HTTP/1.1" 200 509
 INFO 2021-11-04 16:16:03,835 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-05 06:05:33,215 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 06:49:09,830 basehttp 161 "POST /authorization/ HTTP/1.1" 200 509
+INFO 2021-11-05 06:49:23,861 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-05 07:06:29,867 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 07:06:30,814 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:24:31,819 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 14:24:48,651 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-05 14:25:50,006 basehttp 161 "OPTIONS /authorization/ HTTP/1.1" 200 0
+INFO 2021-11-05 14:25:50,434 basehttp 161 "POST /authorization/ HTTP/1.1" 200 512
+INFO 2021-11-05 14:25:52,749 basehttp 161 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2021-11-05 14:25:52,756 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-05 14:26:31,525 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 14:26:32,542 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:27:55,006 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/utils/my_jwt_response_payload_hander.py changed, reloading.
+INFO 2021-11-05 14:27:55,498 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:28:11,435 basehttp 161 "POST /authorization/ HTTP/1.1" 200 477
+INFO 2021-11-05 14:29:04,577 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 14:29:05,540 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:29:07,144 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 14:29:07,663 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:29:13,128 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 14:30:10,267 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 14:30:10,994 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:34:48,939 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+WARNING 2021-11-05 14:34:57,416 log 224 Not Found: /user/
+WARNING 2021-11-05 14:34:57,417 basehttp 161 "GET /user/ HTTP/1.1" 404 48
+INFO 2021-11-05 14:35:13,693 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 14:35:14,408 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:35:22,525 basehttp 161 "GET /user/ HTTP/1.1" 200 292
+INFO 2021-11-05 14:39:50,782 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/urls.py changed, reloading.
+INFO 2021-11-05 14:39:51,526 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:40:07,173 basehttp 161 "POST /authorization/ HTTP/1.1" 200 474
+WARNING 2021-11-05 14:40:19,422 log 224 Bad Request: /verify/
+WARNING 2021-11-05 14:40:19,422 basehttp 161 "POST /verify/ HTTP/1.1" 400 37
+INFO 2021-11-05 14:40:37,793 basehttp 161 "POST /authorization/ HTTP/1.1" 200 474
+INFO 2021-11-05 14:41:08,455 basehttp 161 "POST /verify/ HTTP/1.1" 200 474
+INFO 2021-11-05 14:41:14,655 basehttp 161 "POST /verify/ HTTP/1.1" 200 474
+INFO 2021-11-05 14:41:16,797 basehttp 161 "POST /verify/ HTTP/1.1" 200 474
+WARNING 2021-11-05 14:41:20,882 log 224 Bad Request: /verify/
+WARNING 2021-11-05 14:41:20,883 basehttp 161 "POST /verify/ HTTP/1.1" 400 50
+INFO 2021-11-05 14:41:26,188 basehttp 161 "POST /verify/ HTTP/1.1" 200 474
+INFO 2021-11-05 14:44:26,768 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-05 14:44:27,462 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:47:57,449 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-05 14:47:58,731 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:48:00,380 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-05 14:48:00,939 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:48:19,686 basehttp 161 "OPTIONS /authorization/ HTTP/1.1" 200 0
+INFO 2021-11-05 14:48:36,367 basehttp 161 "OPTIONS /authorization/ HTTP/1.1" 200 0
+INFO 2021-11-05 14:49:37,923 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-05 14:49:38,442 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 14:49:54,649 basehttp 161 "OPTIONS /authorization/ HTTP/1.1" 200 0
+INFO 2021-11-05 14:49:54,848 basehttp 161 "POST /authorization/ HTTP/1.1" 200 462
+INFO 2021-11-05 14:53:38,163 basehttp 161 "POST /authorization/ HTTP/1.1" 200 465
+INFO 2021-11-05 14:55:23,855 basehttp 161 "POST /authorization/ HTTP/1.1" 200 465
+INFO 2021-11-05 14:56:00,415 basehttp 161 "POST /authorization/ HTTP/1.1" 200 465
+INFO 2021-11-05 14:58:49,840 basehttp 161 "POST /authorization/ HTTP/1.1" 200 477
+INFO 2021-11-05 14:59:47,233 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 14:59:56,246 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 14:59:57,992 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:00:06,659 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:00:08,082 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:00:21,435 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:00:22,442 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:00:24,957 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:00:44,525 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 15:00:45,057 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 15:01:50,712 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-05 15:01:51,239 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 15:01:55,094 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:01:59,306 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:02:05,827 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:02:07,434 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:02:49,835 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 15:02:50,381 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 15:10:15,946 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 15:10:16,745 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 15:12:35,945 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 15:12:36,636 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-05 15:12:37,900 log 224 Unauthorized: /user/
+WARNING 2021-11-05 15:12:37,900 basehttp 161 "GET /user/ HTTP/1.1" 401 58
+INFO 2021-11-05 15:13:05,698 basehttp 161 "POST /authorization/ HTTP/1.1" 200 477
+INFO 2021-11-05 15:13:27,340 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+WARNING 2021-11-05 15:13:36,402 log 224 Unauthorized: /user/
+WARNING 2021-11-05 15:13:36,402 basehttp 161 "GET /user/ HTTP/1.1" 401 58
+INFO 2021-11-05 15:13:53,889 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 15:13:54,561 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-05 15:13:56,566 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+INFO 2021-11-05 15:14:02,398 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-05 15:14:03,203 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-05 16:54:27,947 log 224 Unauthorized: /user/
+WARNING 2021-11-05 16:54:27,949 basehttp 161 "GET /user/ HTTP/1.1" 401 58
+INFO 2021-11-05 16:54:34,394 basehttp 161 "GET /user/ HTTP/1.1" 200 293
+WARNING 2021-11-05 16:54:42,767 log 224 Not Found: /user/
+WARNING 2021-11-05 16:54:42,768 basehttp 161 "GET /user/ HTTP/1.1" 404 48
+INFO 2021-11-05 16:54:47,664 basehttp 161 "GET /user/ HTTP/1.1" 200 292
+INFO 2021-11-05 16:55:04,819 basehttp 161 "GET /user/ HTTP/1.1" 200 292
+INFO 2021-11-06 01:54:07,553 basehttp 161 "GET /user/ HTTP/1.1" 200 292
+INFO 2021-11-06 04:31:05,015 basehttp 161 "POST /authorization/ HTTP/1.1" 200 462
+INFO 2021-11-06 04:31:08,165 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-06 07:01:52,021 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/models.py changed, reloading.
+INFO 2021-11-06 07:01:53,285 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:05:45,416 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/models.py changed, reloading.
+INFO 2021-11-06 07:05:46,324 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:07:06,881 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-06 07:07:07,515 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:10:32,889 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-06 07:10:33,399 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:11:13,197 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-06 07:11:13,805 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:11:29,348 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-06 07:11:29,867 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:12:40,182 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/models.py changed, reloading.
+INFO 2021-11-06 07:12:40,744 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:15:35,621 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-06 07:15:36,484 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:35:57,777 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:36:06,110 basehttp 161 "OPTIONS /authorization/ HTTP/1.1" 200 0
+INFO 2021-11-06 07:36:06,333 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-06 07:36:53,585 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-06 07:38:05,241 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-06 07:39:37,178 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-06 07:40:18,960 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-06 07:41:35,722 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/utils/my_jwt_response_payload_hander.py changed, reloading.
+INFO 2021-11-06 07:41:36,448 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:41:42,531 basehttp 161 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2021-11-06 07:41:42,535 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+WARNING 2021-11-06 07:41:49,981 log 224 Bad Request: /authorization/
+WARNING 2021-11-06 07:41:49,981 basehttp 161 "POST /authorization/ HTTP/1.1" 400 68
+INFO 2021-11-06 07:41:55,699 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-06 07:42:22,723 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/utils/my_jwt_response_payload_hander.py changed, reloading.
+INFO 2021-11-06 07:42:23,378 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:42:29,272 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+ERROR 2021-11-06 07:42:37,595 log 224 Internal Server Error: /authorization/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework_jwt/views.py", line 60, in post
+    response_data = jwt_response_payload_handler(token, user, request)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/utils/my_jwt_response_payload_hander.py", line 10, in my_jwt_response_payload_handler
+    print(request.META.jwt)
+AttributeError: 'dict' object has no attribute 'jwt'
+ERROR 2021-11-06 07:42:37,597 basehttp 161 "POST /authorization/ HTTP/1.1" 500 97759
+INFO 2021-11-06 07:42:51,040 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/utils/my_jwt_response_payload_hander.py changed, reloading.
+INFO 2021-11-06 07:42:51,730 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 07:43:06,284 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-06 07:43:09,265 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-06 07:43:58,812 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-06 07:44:02,918 log 224 Unauthorized: /logout/
+WARNING 2021-11-06 07:44:02,919 basehttp 161 "POST /logout/ HTTP/1.1" 401 88
+INFO 2021-11-06 07:44:26,123 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-06 07:44:31,471 log 224 Unauthorized: /logout/
+WARNING 2021-11-06 07:44:31,473 basehttp 161 "POST /logout/ HTTP/1.1" 401 88
+INFO 2021-11-06 09:54:02,689 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-06 09:54:05,905 basehttp 161 "POST /authorization/ HTTP/1.1" 200 543
+INFO 2021-11-06 09:54:22,962 basehttp 161 "GET /user/ HTTP/1.1" 200 381
+INFO 2021-11-06 09:54:31,551 basehttp 161 "GET /user/ HTTP/1.1" 200 382
+WARNING 2021-11-06 09:54:46,051 log 224 Unauthorized: /user/
+WARNING 2021-11-06 09:54:46,051 basehttp 161 "GET /user/ HTTP/1.1" 401 58
+WARNING 2021-11-06 09:54:57,183 log 224 Unauthorized: /user/
+WARNING 2021-11-06 09:54:57,183 basehttp 161 "GET /user/ HTTP/1.1" 401 38
+INFO 2021-11-06 09:55:04,320 basehttp 161 "GET /user/ HTTP/1.1" 200 382
+WARNING 2021-11-07 04:47:38,921 log 224 Unauthorized: /logout/
+WARNING 2021-11-07 04:47:38,923 basehttp 161 "GET /logout/ HTTP/1.1" 401 35
+INFO 2021-11-07 04:49:12,101 basehttp 161 "POST /authorization/ HTTP/1.1" 200 545
+WARNING 2021-11-07 04:49:29,928 log 224 Unauthorized: /user/
+WARNING 2021-11-07 04:49:29,929 basehttp 161 "GET /user/ HTTP/1.1" 401 58
+WARNING 2021-11-07 04:49:38,535 log 224 Unauthorized: /user/
+WARNING 2021-11-07 04:49:38,535 basehttp 161 "GET /user/ HTTP/1.1" 401 35
+INFO 2021-11-07 04:49:57,264 basehttp 161 "GET /user/ HTTP/1.1" 200 382
+INFO 2021-11-07 04:52:01,434 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/utils/my_jwt_response_payload_hander.py changed, reloading.
+INFO 2021-11-07 04:52:02,466 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 04:52:24,958 basehttp 161 "POST /authorization/ HTTP/1.1" 200 542
+INFO 2021-11-07 04:52:39,405 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/utils/my_jwt_response_payload_hander.py changed, reloading.
+INFO 2021-11-07 04:52:39,908 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 04:52:42,842 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-07 04:54:19,255 basehttp 161 "OPTIONS /authorization/ HTTP/1.1" 200 0
+INFO 2021-11-07 04:54:19,512 basehttp 75 - Broken pipe from ('127.0.0.1', 57177)
+
+INFO 2021-11-07 04:54:23,429 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 04:55:18,049 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 04:55:25,060 basehttp 161 "OPTIONS /logout/ HTTP/1.1" 200 0
+WARNING 2021-11-07 04:55:25,123 log 224 Unauthorized: /logout/
+WARNING 2021-11-07 04:55:25,124 basehttp 161 "POST /logout/ HTTP/1.1" 401 88
+INFO 2021-11-07 04:56:19,094 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 04:56:59,893 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-07 04:57:01,862 log 224 Unauthorized: /logout/
+WARNING 2021-11-07 04:57:01,863 basehttp 161 "POST /logout/ HTTP/1.1" 401 88
+INFO 2021-11-07 05:00:49,925 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:04:25,878 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:09:11,637 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-07 05:09:17,786 log 224 Unauthorized: /logout/
+WARNING 2021-11-07 05:09:17,787 basehttp 161 "POST /logout/ HTTP/1.1" 401 88
+INFO 2021-11-07 05:12:30,665 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-07 05:13:08,099 log 224 Unauthorized: /logout/
+WARNING 2021-11-07 05:13:08,100 basehttp 161 "POST /logout/ HTTP/1.1" 401 88
+INFO 2021-11-07 05:13:45,067 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:13:49,196 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-07 05:14:10,178 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:14:54,961 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:14:56,658 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-07 05:15:15,349 basehttp 161 "POST /authorization/ HTTP/1.1" 200 542
+INFO 2021-11-07 05:15:17,663 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-07 05:19:39,611 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-07 05:19:45,212 log 224 Unauthorized: /logout/
+WARNING 2021-11-07 05:19:45,213 basehttp 161 "POST /logout/ HTTP/1.1" 401 67
+INFO 2021-11-07 05:20:48,213 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:20:57,261 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-07 05:22:04,750 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:22:09,635 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-07 05:22:13,681 basehttp 161 "OPTIONS /user/ HTTP/1.1" 200 0
+WARNING 2021-11-07 05:22:13,688 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:22:13,688 basehttp 161 "POST /user/ HTTP/1.1" 401 67
+WARNING 2021-11-07 05:23:54,392 log 224 Bad Request: /authorization/
+WARNING 2021-11-07 05:23:54,392 basehttp 161 "POST /authorization/ HTTP/1.1" 400 68
+INFO 2021-11-07 05:23:58,430 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:24:44,858 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:25:17,189 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-07 05:25:22,829 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:25:22,830 basehttp 161 "POST /user/ HTTP/1.1" 401 67
+WARNING 2021-11-07 05:25:22,841 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:25:22,841 basehttp 161 "POST /user/ HTTP/1.1" 401 67
+WARNING 2021-11-07 05:25:27,130 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:25:27,131 basehttp 161 "POST /user/ HTTP/1.1" 401 67
+WARNING 2021-11-07 05:25:27,137 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:25:27,138 basehttp 161 "POST /user/ HTTP/1.1" 401 67
+INFO 2021-11-07 05:30:32,338 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-07 05:31:11,499 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:31:11,499 basehttp 161 "POST /user/ HTTP/1.1" 401 67
+WARNING 2021-11-07 05:31:11,506 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:31:11,507 basehttp 161 "POST /user/ HTTP/1.1" 401 67
+WARNING 2021-11-07 05:31:45,353 log 224 Bad Request: /authorization/
+WARNING 2021-11-07 05:31:45,354 basehttp 161 "POST /authorization/ HTTP/1.1" 400 79
+WARNING 2021-11-07 05:31:49,845 log 224 Bad Request: /authorization/
+WARNING 2021-11-07 05:31:49,845 basehttp 161 "POST /authorization/ HTTP/1.1" 400 79
+WARNING 2021-11-07 05:32:08,108 log 224 Bad Request: /authorization/
+WARNING 2021-11-07 05:32:08,109 basehttp 161 "POST /authorization/ HTTP/1.1" 400 79
+WARNING 2021-11-07 05:32:11,588 log 224 Bad Request: /authorization/
+WARNING 2021-11-07 05:32:11,589 basehttp 161 "POST /authorization/ HTTP/1.1" 400 79
+INFO 2021-11-07 05:32:32,386 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-07 05:32:37,951 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:32:37,951 basehttp 161 "POST /user/ HTTP/1.1" 401 67
+WARNING 2021-11-07 05:32:37,961 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:32:37,961 basehttp 161 "POST /user/ HTTP/1.1" 401 67
+WARNING 2021-11-07 05:33:20,280 log 224 Bad Request: /authorization/
+WARNING 2021-11-07 05:33:20,281 basehttp 161 "POST /authorization/ HTTP/1.1" 400 79
+WARNING 2021-11-07 05:33:28,295 log 224 Bad Request: /authorization/
+WARNING 2021-11-07 05:33:28,296 basehttp 161 "POST /authorization/ HTTP/1.1" 400 79
+WARNING 2021-11-07 05:35:52,403 log 224 Bad Request: /authorization/
+WARNING 2021-11-07 05:35:52,404 basehttp 161 "POST /authorization/ HTTP/1.1" 400 79
+INFO 2021-11-07 05:37:24,460 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:37:31,877 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-07 05:41:43,545 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+ERROR 2021-11-07 05:41:47,841 log 224 Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py", line 43, in createuser
+    user = User.objects.create_user(username=request.data.get("username"), password=request.data.get("password"),
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 152, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 146, in _create_user
+    user.save(using=self._db)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/base.py", line 763, in save_base
+    updated = self._save_table(
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/base.py", line 906, in _do_insert
+    return manager._insert(
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+ERROR 2021-11-07 05:41:47,858 basehttp 161 "POST /user/ HTTP/1.1" 500 192427
+INFO 2021-11-07 05:42:24,168 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-07 05:42:28,421 log 224 Not Found: /user/
+WARNING 2021-11-07 05:42:28,421 basehttp 161 "GET /user/?username=%E8%94%A1%E8%B1%AA6&password=WOAINI2000 HTTP/1.1" 404 48
+INFO 2021-11-07 05:43:39,313 basehttp 161 "POST /authorization/ HTTP/1.1" 200 542
+INFO 2021-11-07 05:44:12,711 basehttp 161 "GET /user/ HTTP/1.1" 200 381
+WARNING 2021-11-07 05:44:16,781 log 224 Bad Request: /user/
+WARNING 2021-11-07 05:44:16,781 basehttp 161 "GET /user/ HTTP/1.1" 400 108
+INFO 2021-11-07 05:44:25,133 basehttp 161 "GET /user/ HTTP/1.1" 200 381
+INFO 2021-11-07 05:44:38,279 basehttp 161 "OPTIONS /user/?username=%E8%94%A1%E8%B1%AA6&password=WOAINI2000 HTTP/1.1" 200 0
+WARNING 2021-11-07 05:44:38,284 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:44:38,285 basehttp 161 "GET /user/?username=%E8%94%A1%E8%B1%AA6&password=WOAINI2000 HTTP/1.1" 401 67
+WARNING 2021-11-07 05:44:57,316 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:44:57,316 basehttp 161 "GET /user/?username=%E8%94%A1%E8%B1%AA6&password=WOAINI2000 HTTP/1.1" 401 67
+INFO 2021-11-07 05:45:02,117 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-07 05:45:03,726 log 224 Not Found: /user/
+WARNING 2021-11-07 05:45:03,728 basehttp 161 "GET /user/?username=%E8%94%A1%E8%B1%AA6&password=WOAINI2000 HTTP/1.1" 404 48
+WARNING 2021-11-07 05:47:17,503 log 224 Not Found: /user/
+WARNING 2021-11-07 05:47:17,504 basehttp 161 "GET /user/?username=%E8%94%A1%E8%B1%AA6&password=WOAINI2000 HTTP/1.1" 404 48
+INFO 2021-11-07 05:47:20,012 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+WARNING 2021-11-07 05:47:21,209 log 224 Unauthorized: /user/
+WARNING 2021-11-07 05:47:21,210 basehttp 161 "GET /user/?username=%E8%94%A1%E8%B1%AA6&password=WOAINI2000 HTTP/1.1" 401 67
+INFO 2021-11-07 05:47:30,272 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+WARNING 2021-11-07 05:47:33,472 log 224 Not Found: /user/
+WARNING 2021-11-07 05:47:33,478 basehttp 161 "GET /user/?username=%E8%94%A1%E8%B1%AA6&password=WOAINI2000 HTTP/1.1" 404 48
+INFO 2021-11-07 05:48:01,164 basehttp 161 "GET /user/ HTTP/1.1" 200 380
+INFO 2021-11-07 05:48:41,471 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 05:48:43,002 basehttp 161 "OPTIONS /user/?username=1111&password=11111 HTTP/1.1" 200 0
+WARNING 2021-11-07 05:48:43,009 log 224 Not Found: /user/
+WARNING 2021-11-07 05:48:43,010 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 404 48
+INFO 2021-11-07 05:49:11,612 basehttp 161 "GET /user/ HTTP/1.1" 200 380
+INFO 2021-11-07 06:35:57,172 basehttp 161 "GET /user/ HTTP/1.1" 200 380
+WARNING 2021-11-07 06:36:27,183 log 224 Not Found: /user/
+WARNING 2021-11-07 06:36:27,184 basehttp 161 "GET /user/?username=1111&passwored=11111 HTTP/1.1" 404 48
+INFO 2021-11-07 06:37:01,098 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 06:39:59,400 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 06:41:28,293 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-07 06:41:29,954 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 06:41:44,612 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 06:42:15,500 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 06:42:22,584 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 379
+WARNING 2021-11-07 06:45:54,475 log 224 Bad Request: /authorization/
+WARNING 2021-11-07 06:45:54,476 basehttp 161 "POST /authorization/ HTTP/1.1" 400 68
+INFO 2021-11-07 06:45:57,393 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 06:46:11,200 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 06:46:19,129 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 379
+INFO 2021-11-07 06:46:26,192 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-07 06:46:34,094 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 06:47:01,259 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 379
+INFO 2021-11-07 06:47:11,742 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 379
+INFO 2021-11-07 06:47:22,228 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 379
+INFO 2021-11-07 06:47:51,582 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+WARNING 2021-11-07 06:47:52,491 log 224 Unauthorized: /user/
+WARNING 2021-11-07 06:47:52,492 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 401 67
+WARNING 2021-11-07 06:47:54,646 log 224 Unauthorized: /user/
+WARNING 2021-11-07 06:47:54,647 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 401 67
+WARNING 2021-11-07 06:48:51,792 log 224 Unauthorized: /user/
+WARNING 2021-11-07 06:48:51,793 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 401 67
+INFO 2021-11-07 06:48:58,319 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 06:49:38,907 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-07 06:51:23,729 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 06:51:29,863 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 379
+INFO 2021-11-07 06:51:37,386 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 379
+INFO 2021-11-07 06:51:38,052 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 379
+INFO 2021-11-07 06:51:41,245 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+WARNING 2021-11-07 06:51:42,158 log 224 Unauthorized: /user/
+WARNING 2021-11-07 06:51:42,159 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 401 67
+WARNING 2021-11-07 06:51:48,105 log 224 Unauthorized: /user/
+WARNING 2021-11-07 06:51:48,106 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 401 67
+WARNING 2021-11-07 06:51:52,051 log 224 Unauthorized: /user/
+WARNING 2021-11-07 06:51:52,052 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 401 67
+WARNING 2021-11-07 06:51:54,290 log 224 Unauthorized: /user/
+WARNING 2021-11-07 06:51:54,291 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 401 67
+WARNING 2021-11-07 06:52:02,556 log 224 Bad Request: /authorization/
+WARNING 2021-11-07 06:52:02,557 basehttp 161 "POST /authorization/ HTTP/1.1" 400 68
+INFO 2021-11-07 06:52:03,915 basehttp 161 "POST /authorization/ HTTP/1.1" 200 530
+INFO 2021-11-07 07:22:21,768 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-07 07:22:22,535 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 07:35:59,970 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-07 07:36:01,277 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 07:41:28,355 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/models.py changed, reloading.
+INFO 2021-11-07 07:41:29,274 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 07:42:20,379 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/models.py changed, reloading.
+INFO 2021-11-07 07:42:20,906 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 07:42:32,583 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/models.py changed, reloading.
+INFO 2021-11-07 07:42:33,175 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 07:42:42,755 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-07 07:42:43,252 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 07:55:54,070 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-07 13:43:35,049 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-07 13:43:36,077 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 07:01:38,322 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 07:01:40,393 basehttp 161 "POST /authorization/ HTTP/1.1" 200 533
+INFO 2021-11-08 07:03:32,411 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/settings.py changed, reloading.
+INFO 2021-11-08 07:03:33,091 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 07:03:54,169 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 07:04:08,042 basehttp 161 "POST /authorization/ HTTP/1.1" 200 533
+INFO 2021-11-08 07:04:15,531 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 379
+ERROR 2021-11-08 07:09:51,662 log 224 Internal Server Error: /authorization/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework_jwt/views.py", line 60, in post
+    response_data = jwt_response_payload_handler(token, user, request)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/utils/my_jwt_response_payload_hander.py", line 15, in my_jwt_response_payload_handler
+    'data': info.data,
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 548, in data
+    ret = super().data
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 515, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 663, in to_representation
+    return [
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    for field in fields:
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 1053, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 1199, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 1317, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `picture` is not valid for model `Content`.
+ERROR 2021-11-08 07:09:51,673 basehttp 161 "POST /authorization/ HTTP/1.1" 500 151489
+INFO 2021-11-08 07:11:00,198 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/userserializer.py changed, reloading.
+INFO 2021-11-08 07:11:01,346 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 07:11:03,653 basehttp 161 "POST /authorization/ HTTP/1.1" 200 630
+INFO 2021-11-08 07:11:32,359 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 07:13:07,772 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 07:13:14,423 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 07:15:42,992 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 07:17:12,142 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 07:18:39,201 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 07:47:08,825 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 07:47:36,798 basehttp 161 "OPTIONS /authorization/ HTTP/1.1" 200 0
+INFO 2021-11-08 07:47:37,018 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 07:47:49,840 basehttp 161 "OPTIONS /user/?username=1111&password=11111 HTTP/1.1" 200 0
+INFO 2021-11-08 07:47:50,053 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 561
+INFO 2021-11-08 07:50:01,324 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 07:50:26,414 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 07:52:40,961 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 08:02:55,633 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 08:04:06,355 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 08:56:16,979 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 08:58:36,634 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 08:59:53,439 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 08:59:59,181 basehttp 161 "POST /authorization/ HTTP/1.1" 200 806
+WARNING 2021-11-08 09:03:45,225 log 224 Bad Request: /authorization/
+WARNING 2021-11-08 09:03:45,227 basehttp 161 "POST /authorization/ HTTP/1.1" 400 67
+INFO 2021-11-08 09:03:49,225 basehttp 161 "POST /authorization/ HTTP/1.1" 200 806
+INFO 2021-11-08 09:04:08,524 basehttp 161 "POST /authorization/ HTTP/1.1" 200 806
+INFO 2021-11-08 09:40:09,546 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/backgroundOfApp/urls.py changed, reloading.
+INFO 2021-11-08 09:40:10,690 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 09:41:51,557 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-08 09:41:52,137 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 09:44:40,472 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-08 09:44:40,963 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 09:44:55,067 basehttp 161 "POST /authorization/ HTTP/1.1" 200 806
+INFO 2021-11-08 09:45:24,379 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+ERROR 2021-11-08 09:45:24,515 log 224 Internal Server Error: /contents/22/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py", line 73, in get
+    contens = Content.objects.all(author=pk)
+TypeError: all() got an unexpected keyword argument 'author'
+ERROR 2021-11-08 09:45:24,517 basehttp 161 "GET /contents/22/ HTTP/1.1" 500 89472
+INFO 2021-11-08 09:45:49,341 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-08 09:45:49,826 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 09:45:51,709 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+ERROR 2021-11-08 09:45:51,773 log 224 Internal Server Error: /contents/22/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py", line 73, in get
+    contens = Content.objects.all(author_id=pk)
+TypeError: all() got an unexpected keyword argument 'author_id'
+ERROR 2021-11-08 09:45:51,774 basehttp 161 "GET /contents/22/ HTTP/1.1" 500 89496
+INFO 2021-11-08 09:48:13,482 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-08 09:48:14,008 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 09:48:16,479 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+ERROR 2021-11-08 09:48:16,560 log 224 Internal Server Error: /contents/22/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py", line 73, in get
+    contens = Content.objects.get(author_id=pk)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+main.models.Content.MultipleObjectsReturned: get() returned more than one Content -- it returned 3!
+ERROR 2021-11-08 09:48:16,564 basehttp 161 "GET /contents/22/ HTTP/1.1" 500 98753
+INFO 2021-11-08 09:48:29,344 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py changed, reloading.
+INFO 2021-11-08 09:48:29,932 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 09:48:34,099 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 09:48:34,111 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 298
+INFO 2021-11-08 09:50:52,035 basehttp 161 "POST /authorization/ HTTP/1.1" 200 806
+INFO 2021-11-08 09:51:01,546 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 09:51:01,558 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 298
+INFO 2021-11-08 09:51:04,133 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 298
+INFO 2021-11-08 09:51:24,831 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 09:51:34,489 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 09:52:15,436 basehttp 161 "POST /authorization/ HTTP/1.1" 200 724
+INFO 2021-11-08 09:52:36,191 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 09:52:36,207 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 298
+INFO 2021-11-08 09:53:05,012 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 10:05:03,675 basehttp 161 "POST /authorization/ HTTP/1.1" 200 724
+INFO 2021-11-08 10:05:06,868 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 10:05:06,880 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 10:05:07,907 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 10:05:12,435 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 10:06:32,795 basehttp 161 "POST /authorization/ HTTP/1.1" 200 724
+INFO 2021-11-08 10:06:36,892 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 10:06:38,102 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 10:10:25,000 basehttp 161 "POST /authorization/ HTTP/1.1" 200 724
+INFO 2021-11-08 10:10:29,092 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 10:10:29,105 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+WARNING 2021-11-08 11:25:56,881 log 224 Bad Request: /authorization/
+WARNING 2021-11-08 11:25:56,882 basehttp 161 "POST /authorization/ HTTP/1.1" 400 67
+INFO 2021-11-08 11:26:07,159 basehttp 161 "POST /authorization/ HTTP/1.1" 200 724
+INFO 2021-11-08 11:26:11,949 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 11:26:17,567 basehttp 161 "POST /authorization/ HTTP/1.1" 200 724
+INFO 2021-11-08 11:27:16,717 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 11:27:16,729 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 11:27:17,792 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 11:27:19,157 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 11:27:23,265 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 11:27:24,442 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 11:31:50,693 basehttp 161 "POST /authorization/ HTTP/1.1" 200 724
+INFO 2021-11-08 11:31:54,391 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 11:31:54,402 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 11:31:55,433 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 11:31:56,384 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 11:33:42,666 basehttp 161 "POST /authorization/ HTTP/1.1" 200 724
+INFO 2021-11-08 11:34:16,211 basehttp 161 "POST /authorization/ HTTP/1.1" 200 724
+INFO 2021-11-08 11:34:18,469 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 11:34:18,480 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 216
+INFO 2021-11-08 11:35:45,046 basehttp 161 "POST /authorization/ HTTP/1.1" 200 724
+INFO 2021-11-08 11:35:56,684 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 11:35:56,694 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 11:36:00,104 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 11:36:02,310 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 11:36:20,243 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:12:41,317 basehttp 161 "POST /authorization/ HTTP/1.1" 200 816
+INFO 2021-11-08 12:12:48,505 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 12:25:59,063 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 12:25:59,080 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:26:04,123 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 12:26:04,128 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:35:34,572 basehttp 161 "POST /authorization/ HTTP/1.1" 200 816
+INFO 2021-11-08 12:38:28,186 basehttp 161 "POST /authorization/ HTTP/1.1" 200 816
+INFO 2021-11-08 12:38:33,180 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 12:38:33,193 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:38:34,320 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:38:35,249 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:39:35,588 basehttp 161 "POST /authorization/ HTTP/1.1" 200 816
+INFO 2021-11-08 12:39:39,664 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 12:39:39,680 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:39:40,599 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:40:28,971 basehttp 161 "POST /authorization/ HTTP/1.1" 200 816
+INFO 2021-11-08 12:40:34,078 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 12:40:34,093 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:41:03,082 basehttp 161 "POST /authorization/ HTTP/1.1" 200 816
+INFO 2021-11-08 12:41:04,803 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 12:41:04,818 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:41:05,698 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 308
+INFO 2021-11-08 12:41:15,697 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 22
+INFO 2021-11-08 12:41:33,243 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 103
+INFO 2021-11-08 12:41:39,866 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 12:42:35,716 basehttp 161 "POST /authorization/ HTTP/1.1" 200 611
+INFO 2021-11-08 12:42:39,778 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 12:42:39,790 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 103
+INFO 2021-11-08 12:42:42,648 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 103
+INFO 2021-11-08 12:42:49,373 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 103
+INFO 2021-11-08 12:42:54,201 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 12:47:14,486 basehttp 161 "POST /authorization/ HTTP/1.1" 200 611
+INFO 2021-11-08 12:47:16,335 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 12:47:16,346 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 103
+INFO 2021-11-08 12:47:53,574 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 12:47:55,558 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 12:47:56,494 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 12:49:50,375 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 12:49:57,374 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 13:21:19,089 basehttp 161 "GET /contents/undefined HTTP/1.1" 301 0
+ERROR 2021-11-08 13:21:19,260 log 224 Internal Server Error: /contents/undefined/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py", line 73, in get
+    contens = Content.objects.filter(author_id=pk)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'undefined'.
+ERROR 2021-11-08 13:21:19,270 basehttp 161 "GET /contents/undefined/ HTTP/1.1" 500 148834
+INFO 2021-11-08 13:25:54,742 basehttp 161 "GET /contents/undefined HTTP/1.1" 301 0
+ERROR 2021-11-08 13:25:54,832 log 224 Internal Server Error: /contents/undefined/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/main/views.py", line 73, in get
+    contens = Content.objects.filter(author_id=pk)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/Users/mac/Desktop/python3_projects/backgroundOfApp/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'undefined'.
+ERROR 2021-11-08 13:25:54,842 basehttp 161 "GET /contents/undefined/ HTTP/1.1" 500 148834
+INFO 2021-11-08 13:27:36,313 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 13:27:42,300 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 13:27:42,310 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:27:43,300 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:31:45,800 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 13:31:49,043 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 13:31:49,056 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:31:51,799 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:32:07,078 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 13:32:09,924 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 13:32:09,937 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:32:10,940 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:32:28,189 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:32:29,141 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:32:52,370 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:34:53,685 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:34:58,785 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:35:01,405 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 13:35:07,317 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 13:35:09,203 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:35:10,155 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:35:12,535 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 13:53:25,983 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 13:53:28,142 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 13:53:28,151 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:53:29,078 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:53:34,458 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 13:55:03,711 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 13:55:05,262 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:55:06,109 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:55:35,195 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:55:36,033 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:55:36,599 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:55:38,574 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:55:46,577 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+WARNING 2021-11-08 13:55:58,930 log 224 Unauthorized: /user/
+WARNING 2021-11-08 13:55:58,931 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 401 67
+WARNING 2021-11-08 13:55:58,946 log 224 Unauthorized: /user/
+WARNING 2021-11-08 13:55:58,947 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 401 67
+INFO 2021-11-08 13:56:10,559 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 13:56:17,274 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 13:56:23,768 basehttp 161 "GET /user/?username=1111&password=11111 HTTP/1.1" 200 561
+INFO 2021-11-08 13:56:29,175 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 13:56:40,142 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 13:57:23,989 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 14:01:50,812 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/models.py changed, reloading.
+INFO 2021-11-08 14:01:51,684 autoreload 637 Watching for file changes with StatReloader

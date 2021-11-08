@@ -13,23 +13,23 @@ from main.models import User, Content
 from rest_framework.viewsets import GenericViewSet
 from rest_framework import mixins
 from rest_framework.views import APIView
-
+from rest_framework.generics import GenericAPIView
 from utils.csrf import CsrfExemptSessionAuthentication
 
 
 class UserinfoViewset(GenericViewSet, mixins.RetrieveModelMixin, mixins.ListModelMixin, mixins.CreateModelMixin):
     queryset = User.objects.all()
     serializer_class = UserSerializer
-    authentication_classes = [JSONWebTokenAuthentication, ]
+    authentication_classes = [BasicAuthentication, JSONWebTokenAuthentication, ]
+    permission_classes = [IsAuthenticated, ]
 
     def retrieve(self, request, *args, **kwargs):
-
-        username = request.data.get("username")
-        password = request.data.get("password")
+        print(request.user)
+        username = request.query_params.get("username")
+        password = request.query_params.get("password")
         try:
             instance = authenticate(username=username, password=password)
             if instance is not None:
-                login(request, instance)
                 print(request.user)
                 serializer = self.get_serializer(instance)
                 return Response({"code": 200, "data": serializer.data}, status=status.HTTP_200_OK)
@@ -60,15 +60,28 @@ class UserinfoViewset(GenericViewSet, mixins.RetrieveModelMixin, mixins.ListMode
         print(request.user)
         return Response({'code': 'ok'})
 
+
 '''文本视图'''
-class ContentViewset(GenericViewSet, mixins.CreateModelMixin, mixins.UpdateModelMixin):
+
+
+class ContentView(GenericAPIView, mixins.CreateModelMixin, mixins.UpdateModelMixin):
     queryset = Content.objects.all()
     serializer_class = CotentSerializer
 
+    # 获取笔记
+    def get(self, request, pk):
+        contens = Content.objects.filter(author_id=pk)
+        serilizer = CotentSerializer(contens,many=True)
+        return Response({'code':200,'data':serilizer.data},status=status.HTTP_200_OK)
+
+
+
 '''退出登录'''
+
+
 class Logoutview(APIView):
     def post(self, request):
-        print(request.user,'退出')
+        print(request.user, '退出')
         logout(request)
         return Response({'code': 200, 'msg': '退出登录成功！'})
 

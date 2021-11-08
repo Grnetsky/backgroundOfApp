@@ -8,7 +8,7 @@ class CotentSerializer(ModelSerializer):
 
     class Meta:
         model = Content
-        fields = ['title','updateTime','content','picture','author']
+        fields = '__all__'
 
 
 from main.models import Content

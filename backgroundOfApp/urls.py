@@ -17,9 +17,9 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.contrib.auth import logout
 from django.urls import path, re_path
-from rest_framework_jwt.views import obtain_jwt_token
+from rest_framework_jwt.views import obtain_jwt_token,verify_jwt_token
 
-from main.views import UserinfoViewset, ContentViewset, Register, Logoutview
+from main.views import UserinfoViewset, ContentView, Register, Logoutview
 from rest_framework.routers import DefaultRouter
 #
 # router = DefaultRouter()
@@ -29,7 +29,8 @@ urlpatterns = [
     url(r'^user/$', UserinfoViewset.as_view({'get': 'retrieve','post':'createuser','put':'test'})),
     url(r'^user/(?P<pk>\d+)/$', UserinfoViewset.as_view({'get': 'retrieve',})),
     url(r'authorization/',obtain_jwt_token),
-    # url(r'content/',ContentViewset.as_view()),
+    url(r'verify',verify_jwt_token),
+    url(r'contents/(?P<pk>.+)/$',ContentView.as_view()),
     path('registercheck/',Register.as_view()),
     path('logout/',Logoutview.as_view())
 ]
