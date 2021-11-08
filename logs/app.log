@@ -5121,3 +5121,28 @@ INFO 2021-11-08 13:56:40,142 basehttp 161 "POST /authorization/ HTTP/1.1" 200 71
 INFO 2021-11-08 13:57:23,989 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
 INFO 2021-11-08 14:01:50,812 autoreload 251 /Users/mac/Desktop/python3_projects/backgroundOfApp/main/models.py changed, reloading.
 INFO 2021-11-08 14:01:51,684 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 14:03:53,344 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-08 14:03:55,108 basehttp 161 "POST /authorization/ HTTP/1.1" 200 712
+INFO 2021-11-08 14:03:59,430 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 14:04:01,156 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 14:04:02,408 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 14:04:03,194 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 14:04:03,877 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 14:04:04,746 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 204
+INFO 2021-11-08 14:05:00,486 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:05:17,781 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:05:21,679 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:05:38,335 basehttp 161 "POST /logout/ HTTP/1.1" 200 42
+INFO 2021-11-08 14:05:52,950 basehttp 161 "POST /authorization/ HTTP/1.1" 200 821
+INFO 2021-11-08 14:05:56,146 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:08:22,658 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:08:23,392 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:08:24,077 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:08:25,011 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:09:08,201 basehttp 161 "POST /authorization/ HTTP/1.1" 200 821
+INFO 2021-11-08 14:09:09,917 basehttp 161 "GET /contents/22 HTTP/1.1" 301 0
+INFO 2021-11-08 14:09:09,930 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:09:51,048 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:24:56,621 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:25:05,100 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
+INFO 2021-11-08 14:25:07,118 basehttp 161 "GET /contents/22/ HTTP/1.1" 200 313
