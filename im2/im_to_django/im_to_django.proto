@@ -1,0 +1,19 @@
+syntax = "proto3";
+// ??message??????
+message rsp_data {
+	string token=2;
+}
+message article {
+
+}
+message req_data {
+	bool user_exist=1;
+	int32 user_id =2;
+}
+
+// ??service??????
+service name {
+//??rpc????????
+rpc tokrn_interface(rsp_data) returns(req_data){};
+
+}

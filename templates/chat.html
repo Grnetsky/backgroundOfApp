@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .message-box {
+            width: 100%;
+            height: 300px;
+            border: 1px solid #000000;
+            position: relative;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="message-box">
+</div>
+<input type="text">
+<button onclick="sendmessage()">点击发送消息</button>
+<script>
+    document.onkeydown = function (event) {
+        if (event.key === 'Enter') {
+            event.preventDefault()
+            button.click()
+        }
+
+    }
+    var input = document.querySelector("input")
+    var button = document.querySelector("button")
+    var box = document.querySelector(".message-box")
+    var number = 0
+
+    function sendmessage() {
+        var message = input.value
+        socket.send('{"data":"123","user_id":"xxxx"}')
+        input.value = ''
+        let item = document.createElement("div")
+        item.style.position = 'absolute'
+        item.style.right = '0'
+        item.style.top = number * 22 + 'px'
+        item.style.minWidth = '0'
+        item.style.display = 'block'
+        item.style.backgroundColor = 'green'
+        item.innerHTML = message
+        box.append(item)
+        number += 1
+        item.scrollIntoView(false)
+        input.focus()
+    }
+
+    var socket = new WebSocket(
+        "ws://127.0.0.1:8000/room/123/"
+    )
+    socket.onopen = function (data) {
+        console.log("已连接服务器")
+        console.log(data)
+    }
+    socket.onmessage = (event) => {
+        console.log(event.data)
+        message = event.data
+        let item = document.createElement("div")
+        item.style.position = 'absolute'
+        item.style.left = '0'
+        item.style.top = number * 22 + 'px'
+        item.style.minWidth = '0'
+        item.style.display = 'block'
+        item.style.backgroundColor = 'green'
+        item.innerHTML = message
+        box.append(item)
+        number += 1
+        item.scrollIntoView(false)
+
+    }
+    socket.onerror = function (event){
+        console.log("出错了")
+        console.log(event)
+    }
+</script>
+</body>
+</html>
