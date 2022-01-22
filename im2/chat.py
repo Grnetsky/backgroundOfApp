@@ -61,13 +61,14 @@ def on_connect(sid, environ):
             USER_LIST.append(str(back_data.user_id))
 
         print(USER_LIST)
-        sio.send({"message":"登陆成功"}, room=str(back_data.user_id))
+        sio.send({"message": "登陆成功"}, room=str(back_data.user_id))
 
     else:
         sio.disconnect(sid)
     # 多事件名称为message则可以直接调用 sio.send(msg_data, room=sid)
 
-
+def ack(data):
+    print("信息已经被收到",data)
 # 聊天时使用message事件 传输的聊天格式为json
 @sio.on("chat")
 def chat(sid, data):
@@ -76,20 +77,26 @@ def chat(sid, data):
     message = data["message"]
     data_type = data["type"]
     msg_data = {
-        "from":data_from,
+        "from": data_from,
         "message": message,
         "sendtime": time.time(),
-        "type":data_type
+        "type": data_type
     }
     # sio.enter_room(sid=sid, room="we")
     # print(sio.rooms(sid))
     print(USER_LIST)
     user_online(data_to)
-    sio.emit("chat",data=msg_data, room=str(data_to))
+    sio.emit("chat", data=msg_data, room=str(data_to),callback=ack)
+    # return "服务端收到"
+
+
 def user_online(user_id):
     while str(user_id) not in USER_LIST:
-        time.sleep(0)
+        time.sleep(2)
     return True
+
+
+
 @sio.on("enter_room")
 def enter_room(sid, data):
     data_obj = data
@@ -98,11 +105,10 @@ def enter_room(sid, data):
     sio.emit("message", data={"msg": "进入房间成功"}, room=sid)
 
 
-
 @sio.on("disconnect")
 def disconnect(sid):
     rooms = sio.rooms(sid)
-    print(sid,"断开了连接")
+    print(sid, "断开了连接")
     print(sio.rooms(sid))
     USER_LIST.remove(sio.rooms(sid)[1])
     for room in rooms:
