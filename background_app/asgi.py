@@ -18,5 +18,5 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'background_app.settings')
 # application = get_asgi_application()
 application = ProtocolTypeRouter({
     "http":get_asgi_application(), # http请求
-    "websocket":URLRouter(routing.websocket_urlpatterns)
+    "websocket":URLRouter(routing.websocket_urlpatterns)  # websocket请求
 })

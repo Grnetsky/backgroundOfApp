@@ -1,12 +1,15 @@
 # shij事件处理函数
 # 设置环境变量中的 DJANGO_SETTINGS_MODULE 设置为 django 配置
 # 启动 django 配置、注册 app 等等初始化操作
+import os,sys
+
 from django.core.handlers.wsgi import WSGIRequest
 from server import sio
 import time
 import grpc
 from im_to_django import im_to_django_pb2_grpc
 from im_to_django import im_to_django_pb2
+
 
 print("运行socketio")
 
@@ -67,8 +70,26 @@ def on_connect(sid, environ):
         sio.disconnect(sid)
     # 多事件名称为message则可以直接调用 sio.send(msg_data, room=sid)
 
-def ack(data):
-    print("信息已经被收到",data)
+
+def ack(event, room, message, ack):
+    if not ack:
+        sio.emit(event, room=room, data=message)
+
+
+class Ack:
+    def __init__(self, event, message, room):
+        self.event = event
+        self.message = message
+        self.room = room
+
+    def ack(self, ack):
+        if not ack:
+            print("消息未传到")
+            sio.emit(self.event, self.message, self.room, callback=self.ack)
+        else:
+            print("消息已成功传到",ack)
+
+
 # 聊天时使用message事件 传输的聊天格式为json
 @sio.on("chat")
 def chat(sid, data):
@@ -85,16 +106,14 @@ def chat(sid, data):
     # sio.enter_room(sid=sid, room="we")
     # print(sio.rooms(sid))
     print(USER_LIST)
-    user_online(data_to)
-    sio.emit("chat", data=msg_data, room=str(data_to),callback=ack)
+    # user_online(data_to)
+    sio.emit("chat", data=msg_data, room=str(data_to))
     # return "服务端收到"
-
 
 def user_online(user_id):
     while str(user_id) not in USER_LIST:
         time.sleep(2)
     return True
-
 
 
 @sio.on("enter_room")

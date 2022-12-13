@@ -118,6 +118,7 @@ class Registe(APIView):
     def post(self, request):
         user = User.objects.create_user(username=request.data.get("username"), password=request.data.get("password"),
                                         sex=1)
+        user.objects.filter(id=1)
         user.save()
         info = UserSerializer(user)
         return Response({'code': 200, 'data': info.data})

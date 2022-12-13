@@ -9,7 +9,6 @@ class User(AbstractUser):
     head_portrait = models.ImageField(upload_to='head_portrait', verbose_name='头像',
                                       default='/head_portrait/head_portrait.jpg')
 
-
     class Meta:
         db_table = 'auth_user'
         verbose_name = '用户管理'
@@ -22,7 +21,7 @@ class User(AbstractUser):
 
 class Content(models.Model):
     title = models.CharField(max_length=20, verbose_name='标题')
-    desc = models.CharField(max_length=256,default='')
+    desc = models.CharField(max_length=256, default='')
     updateTime = models.DateTimeField(auto_now=True)
     content = models.TextField()
     author = models.ForeignKey(to=User, on_delete=models.CASCADE, related_name='contents')
